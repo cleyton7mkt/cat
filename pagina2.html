@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botão</title>
+</head>
+<body>
+    <p> Conteudo da Pagina 2</p>
+    <a href="index.html">Back</a> <br>
+    
+    <button onclick="alert('WARRINNG! YOU GO BECOME A MILLIONAIRE MAN')">Click Here</button> <br>
+        <br>
+    
+    <input type="text" placeholder="Informe o seu nome" id="nome" class="nomecss"> 
+    <button onclick="minhaFuncao()">Don't Click Here</button>
+
+    <script>
+        function minhaFuncao(){
+            var nome = document.querySelector('#nome').value;
+
+            alert(nome);
+        }
+    </script>
+</body>
+</html>
